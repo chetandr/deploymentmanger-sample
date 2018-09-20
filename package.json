@@ -1,0 +1,13 @@
+{
+  "name": "deploymentmanager",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "google-auth-library": "^2.0.0",
+    "googleapis": "^33.0.0",
+    "randomstring": "^1.1.5"
+  }
+}
