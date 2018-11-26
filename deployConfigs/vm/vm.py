@@ -19,10 +19,8 @@ that Persistent Disk as a data disk.
 
 COMPUTE_URL_BASE = 'https://www.googleapis.com/compute/v1/'
 
-
 def GenerateConfig(context):
   """Create instance with disks."""
-
   datadisk = 'datadisk-'+ context.env['deployment']
   resources = [{
       'type': 'compute.v1.disk',
