@@ -1,8 +1,5 @@
 class Context:
-  env = {}
+  env = {"deployment": "ABC", "project": "XYZ"};
   properties = {}
-  def __init__(self, env, properties):
+  def __init__(self, properties):
     self.properties = properties
-    self.env = env
-  def getProperties(self):
-    return self.properties
